@@ -4,7 +4,7 @@
 
 Developed by [NovAsia Estate](https://novasia.estate/). MIT licensed. Pure Elm library with a local browser desk; no server, credentials, telemetry or automatic storage.
 
-![Synthetic review desk](docs/desk-preview.png)
+![Synthetic review desk](https://raw.githubusercontent.com/novasia-estate/property-review-merge/1.0.1/docs/desk-preview.png)
 
 ## The problem
 
@@ -64,4 +64,4 @@ elm-test
 elm make src/Property/ReviewMerge.elm src/Property/ReviewMerge/Json.elm --docs docs.json
 ```
 
-Read [merge rules](docs/merge-rules.md), [JSON contract](docs/json-contract.md), [integration](docs/integration.md) and [privacy/limits](docs/privacy.md). Every example is authored synthetic data, not a real property inspection.
+Read [merge rules](https://github.com/novasia-estate/property-review-merge/blob/1.0.1/docs/merge-rules.md), [JSON contract](https://github.com/novasia-estate/property-review-merge/blob/1.0.1/docs/json-contract.md), [integration](https://github.com/novasia-estate/property-review-merge/blob/1.0.1/docs/integration.md) and [privacy/limits](https://github.com/novasia-estate/property-review-merge/blob/1.0.1/docs/privacy.md). Every example is authored synthetic data, not a real property inspection.
