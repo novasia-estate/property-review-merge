@@ -39,6 +39,8 @@ result =
 
 ## Browser desk
 
+[Open the browser desk](https://novasia-estate.github.io/property-review-merge/) with the synthetic example, or build it locally:
+
 ```sh
 cd demo
 elm make src/Main.elm --optimize --output app.js
