@@ -1,0 +1,45 @@
+[
+  {
+    "id": "A101",
+    "fields": [
+      {
+        "key": "note",
+        "value": "Loose handle on upper cabinet"
+      },
+      {
+        "key": "room",
+        "value": "Kitchen"
+      },
+      {
+        "key": "severity",
+        "value": "major"
+      }
+    ]
+  },
+  {
+    "id": "A102",
+    "fields": [
+      {
+        "key": "room",
+        "value": "Bathroom"
+      },
+      {
+        "key": "status",
+        "value": "assigned"
+      }
+    ]
+  },
+  {
+    "id": "A103",
+    "fields": [
+      {
+        "key": "note",
+        "value": "Synthetic new observation"
+      },
+      {
+        "key": "room",
+        "value": "Balcony"
+      }
+    ]
+  }
+]

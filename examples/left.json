@@ -1,0 +1,19 @@
+[
+  {
+    "id": "A101",
+    "fields": [
+      {
+        "key": "room",
+        "value": "Kitchen"
+      },
+      {
+        "key": "note",
+        "value": "Loose handle on upper cabinet"
+      },
+      {
+        "key": "severity",
+        "value": "minor"
+      }
+    ]
+  }
+]

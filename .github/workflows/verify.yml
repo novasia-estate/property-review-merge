@@ -1,0 +1,31 @@
+name: Verify and publish
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --global elm@0.19.1-6 elm-test@0.19.1-revision16
+      - run: elm-test
+      - run: elm make src/Property/ReviewMerge.elm src/Property/ReviewMerge/Json.elm --docs "$RUNNER_TEMP/docs.json"
+      - name: Compile separate browser desk
+        working-directory: demo
+        run: elm make src/Main.elm --optimize --output "$RUNNER_TEMP/app.js"
+  publish:
+    if: github.ref == 'refs/tags/1.0.0'
+    needs: verify
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --global elm@0.19.1-6
+      - run: elm publish

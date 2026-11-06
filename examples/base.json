@@ -1,0 +1,32 @@
+[
+  {
+    "id": "A101",
+    "fields": [
+      {
+        "key": "room",
+        "value": "Kitchen"
+      },
+      {
+        "key": "note",
+        "value": "Handle needs review"
+      },
+      {
+        "key": "severity",
+        "value": "minor"
+      }
+    ]
+  },
+  {
+    "id": "A102",
+    "fields": [
+      {
+        "key": "room",
+        "value": "Bathroom"
+      },
+      {
+        "key": "status",
+        "value": "open"
+      }
+    ]
+  }
+]

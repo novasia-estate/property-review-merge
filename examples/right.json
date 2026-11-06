@@ -1,0 +1,45 @@
+[
+  {
+    "id": "A101",
+    "fields": [
+      {
+        "key": "room",
+        "value": "Kitchen"
+      },
+      {
+        "key": "note",
+        "value": "Handle screw missing"
+      },
+      {
+        "key": "severity",
+        "value": "major"
+      }
+    ]
+  },
+  {
+    "id": "A102",
+    "fields": [
+      {
+        "key": "room",
+        "value": "Bathroom"
+      },
+      {
+        "key": "status",
+        "value": "assigned"
+      }
+    ]
+  },
+  {
+    "id": "A103",
+    "fields": [
+      {
+        "key": "room",
+        "value": "Balcony"
+      },
+      {
+        "key": "note",
+        "value": "Synthetic new observation"
+      }
+    ]
+  }
+]
